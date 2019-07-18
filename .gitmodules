@@ -1,5 +1,5 @@
-[submodule "ps-spotify.git"]
-	path = ps-spotify.git
+[submodule "ps-spotify"]
+	path = ps-spotify
 	url = ../ps-spotify.git
 	branch = master
 [submodule "dotnet-core-spotify-authentication"]

@@ -1,6 +1,6 @@
 ﻿
 Param(
-  [String] $uri='spotify:playlist:4jkNfY9btZJoAiCO4vYs2U'
+  [String] $uri='spotify:playlist:37i9dQZEVXbMDoHDwVN2tF'
 )
 
 if (-Not (Get-Process Spotify -ErrorAction SilentlyContinue)) {
@@ -8,6 +8,6 @@ if (-Not (Get-Process Spotify -ErrorAction SilentlyContinue)) {
   Start-Sleep 7
 }
 
-Import-Module .\ps-spotify\ps-spotify
+Import-Module $PSScriptRoot\ps-spotify\ps-spotify
 Start-Process $uri
 Set-SpotifyConnectPlay $uri

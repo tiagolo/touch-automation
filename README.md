@@ -31,7 +31,7 @@ Collection of powershell script for using as buttons for touch-portal app: https
     ```powershell
     powershell -File spotify-uri-play.ps1
     ```
-    * This should open and play this playlist: - [spotify:playlist:37i9dQZEVXbMDoHDwVN2tF]() | [Top 50 Global](https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF?si=lbUUvr0UQiiqpM2lmD4ANg)
+    * This should open and play this playlist: - [spotify:playlist:37i9dQZEVXbMDoHDwVN2tF](spotify:playlist:37i9dQZEVXbMDoHDwVN2tF) | [Top 50 Global](https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF?si=lbUUvr0UQiiqpM2lmD4ANg)
 * To open any other music, album or playlist just add the spotify URI as a parameter for the script:
     ```powershell
     powershell -File spotify-uri-play.ps1 spotify:album:4vSfHrq6XxVyMcJ6PguFR2

@@ -4,7 +4,7 @@ Param(
 )
 
 if (-Not (Get-Process Spotify -ErrorAction SilentlyContinue)) {
-  Spotify.exe
+  Start-Process 'spotify:home'
   Start-Sleep 7
 }
 

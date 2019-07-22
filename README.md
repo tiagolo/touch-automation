@@ -9,6 +9,8 @@ Collection of powershell script for using as buttons for touch-portal app: https
 * Clone this git repository with git submodules using:
     ```
     git clone --recurse-submodules https://github.com/tiagolo/touch-automation.git
+    cd touch-automation
+    git submodule foreach 'git checkout master'
     ```
 * Enter the `touch-automation` folder;
 * Run the .Net Core webapp for authentication with spotify:

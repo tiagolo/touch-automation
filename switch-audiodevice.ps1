@@ -5,5 +5,5 @@
 )
   
 Set-AudioDevice -ID "$device"
-Start-Process powershell -Verb runas -ArgumentList "-command `"& {Restart-Service -Name Audiosrv -Force}`""
+#Start-Process powershell -Verb runas -ArgumentList "-command `"& {Restart-Service -Name Audiosrv -Force}`""
 #Restart-Service -Name Audiosrv -Force
